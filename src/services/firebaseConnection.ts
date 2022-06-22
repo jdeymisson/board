@@ -2,17 +2,18 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 let firebaseConfig = {
-  apiKey: "AIzaSyB6kRIQ8MhaVjQa6ikWtJEkNxjIjW1d7wI",
-  authDomain: "boardapp-62c80.firebaseapp.com",
-  projectId: "boardapp-62c80",
-  storageBucket: "boardapp-62c80.appspot.com",
-  messagingSenderId: "666716250503",
-  appId: "1:666716250503:web:6e893aa33f652fc4ed7322",
-  measurementId: "G-Q5QR2LSE0R"
+  apiKey: "AIzaSyCWYK-RyGYBIcBCa50kU7f0JdxAlhIjurY",
+  authDomain: "boardapp-b81f9.firebaseapp.com",
+  projectId: "boardapp-b81f9",
+  storageBucket: "boardapp-b81f9.appspot.com",
+  messagingSenderId: "795781375449",
+  appId: "1:795781375449:web:10e53180ee185d307fe5c8",
+  measurementId: "G-F56NH1SSR5"
 };
+
 // Initialize Firebase
 if(!firebase.apps.length){
-  firebase.initializeApp(firebaseConfig);
+  const app = firebase.initializeApp(firebaseConfig);
 }
 
 export default firebase;

@@ -3,6 +3,7 @@
   max-width: 1120px;
   margin: 0 auto;
   padding: 0 2rem;
+  min-height: calc(100vh - 6rem);
 
   display: flex;
   align-items: center;
@@ -11,6 +12,11 @@
 
   img{
     margin-top: 2rem;
+  }
+
+  h3{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 
 }
@@ -45,6 +51,7 @@
   justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 1.5rem;
+  width: 150px;
 
   img{
     width: 65px;
@@ -59,6 +66,6 @@
   }
 
   img:hover{
-    transform: scale(1.2);
+    transform: scale(.9);
   }
 }
